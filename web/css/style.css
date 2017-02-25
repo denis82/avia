@@ -1,0 +1,496 @@
+
+body{
+margin:0;
+background-color:#ffffff;
+}
+#page {
+width: 700px;
+padding-bottom:5px;
+background-color:#fff;
+margin: 0 auto;
+
+
+display:table;
+}
+#header h1 {
+font-size:24px;
+font-family:"Trebuchet MS", Verdana, SansSerif;
+color:#3466FC;
+letter-spacing:-3px;
+padding-left: 10px;
+}
+.h1_emp {
+font-size:30px;
+color:#66CC66;
+font-weight:bolder;
+letter-spacing:-3px;
+}
+#header_img{
+width:750px;
+height:248px;
+
+}
+
+#center{
+border-top: 1px #339900 solid;
+width:640px;
+float:left;
+
+margin-top:5px;
+}
+
+.content {
+width: 630px;
+padding-left:10px;
+margin-top: 5px;
+}
+.content h2 {
+font-size:20px;
+color:#3466FC;
+font-family:Tahoma, Arial, Helvetica, sans-serif
+}
+.content p {
+color:#333333;
+font-size:12px;
+font-family: Helvetica, sans-serif;
+}
+
+#sidebar {
+border-top: 1px #339900 solid;
+float:left;
+margin: 5px 0 0 10px;
+width: 170px;
+//font-weight:bolder;
+}
+#right {
+border-top: 1px #339900 solid;
+float: right;
+margin: 5px 0 0 10px;
+width: 170px;
+font-weight: bolder;
+
+}
+#sidebar .sidebar_item{
+margin-top: 5px;
+}
+#sidebar .sidebar_item h3{
+margin-bottom: 0;
+color:#009900;
+font-size:20px;
+font-family:"Trebuchet MS", Verdana, SansSerif;
+}
+#sidebar .sidebar_item ul{
+padding: 0;
+margin: 0;
+
+}
+#sidebar .sidebar_item li{
+list-style-type:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#333333;
+padding-top: 1px;
+}
+#sidebar .sidebar_item li a{
+text-decoration:none;
+background-color:#3466FC;
+color:#FFFFFF;
+padding-left: 4px;
+display:block;
+width: 100%;
+}
+#sidebar .sidebar_item li a:hover{
+background-color:#FFFFFF;
+color:#3466FC;
+text-align:left;
+padding-right: 8px;
+width:96%;
+}
+#footer {
+background-color:#3466FC;
+width: 700px;
+margin: 0 auto;
+}
+#footer p{
+margin:0;
+padding: 5px 16px;
+font-size:12px;
+color:#fff;
+font-family:"Trebuchet MS", Verdana, SansSerif;
+font-weight:bolder;
+}
+#footer p a{
+color:#66CC66;
+text-decoration:none;
+}
+#footer p a:hover{
+color:#FFFFFF;
+}
+#cont
+{
+	width: 1000px;
+	
+	height: 500px;
+	margin: 0 auto;
+}
+
+.tabletime
+{
+    border-collapse: collapse;
+   
+    
+}
+#bone{
+     width: 50px;
+}
+#tablecolor
+{
+    border-collapse: collapse;
+    border-color: #C0C0C0;
+}
+.square {
+    
+   // border-style:hidden;
+    
+}
+.pr_square 
+{
+    width: 18px;
+background-color: #C0C0C0;
+//border-style:hidden;
+}
+.self_square 
+{
+    width: 18px;
+background-color: #4BFF00;
+//border-style:hidden;
+}
+
+.th{
+    width: 40px;
+    height: 20px;
+    background-color: #96CDFE;
+    font-family:  Helvetica,SansSerif;//Aral; 
+    
+}
+
+.month_th_light{
+    width: 90px;
+    background-color: #7A95F0;
+}
+.month_th_dark{
+    width: 90px;
+    background-color: #3267FC;
+}
+
+#head_month
+{
+    height: 50px;
+    background-color: #788CEF;
+    
+    
+}
+#table_month
+{
+    border-collapse: collapse;
+    border-color: #D4D4D4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+}
+#underhead_month
+{
+    height: 15px;
+}
+.datepick
+{
+    height: 30px;
+    width: 30px;
+   
+    
+    float: right;
+    border-collapse: collapse;
+    border-color: #ffffff;
+}
+.datenum
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+.buisetable
+{
+float: left;
+width: 2px;
+ 
+  height: 50px;
+}
+#datepker_month_header{
+    padding-top: 10px;
+    padding-left: 220px;
+    border-color: solid 1px #fff000;
+    color:  #000000;
+    //background-color: #000000;
+}
+.slim{
+    height: 1px;
+    width: 10px;
+    border-color: #ffffff;
+    //background-color: #ffffff;
+}
+.slim_b{
+    height: 1px;
+    width: 10px;
+    border-color: #ffffff;
+    background-color: #C0C0C0;
+}
+.slim_b_self{
+    height: 1px;
+    width: 10px;
+    border-color: #ffffff;
+    background-color: #4BFF00;
+}
+.redactor_personal_info{
+    float: right;
+    color: #D0D0D0;
+    text-decoration: none;
+}
+
+#space_admin_image{
+    float: left;
+    border: 1px solid #fff;
+    width: 202px;
+    height: 229px;
+    position: static;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    
+}
+#space_club_image{
+    border: 1px solid #fff;
+    width: 385px;
+    height: 285px;
+    position: static;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    
+}
+.table_resourse
+{
+    
+    border-collapse: collapse;
+    border-color: #000000;
+}
+.table_resourse_th{
+    background-color: #00CDFF;
+    color: #FFFFFF;
+}
+.underline_dayres
+{
+    border-bottom: 1px solid #000000;
+    color: #4BFF00;
+    border: 2px solid #fff000;
+}
+.mark_sob
+{
+    //background: red;
+    width: 20px;
+}
+.admin_panel
+{
+ background-color: #6497FF;
+ color: #FFFFFF;
+}
+.bone{
+    width: 100px;
+    
+}
+.bone_h{
+    
+    height: 20px;
+    width: 48px;
+}
+.block_change
+{
+    border: 0px;
+}
+.head_color
+{
+    background-color: #00CDFF;
+    visibility: 50%;
+    text-align: center;
+}
+.select_for_edit
+{
+    text-align: center;
+}
+.cuntwork_table_head{
+
+    background-color: #3366FF;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    
+}
+.cuntwork_table_sl
+{
+    background-color: #00CEFF;
+    color: #fff;
+}
+
+.cuntwork_table{   
+    border-collapse: collapse;
+ 
+}
+.cuntwork_table_month{
+
+    background-color: #3366FF;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.cuntwork_table_month_button
+{
+    background-color: #1346DF;
+}
+
+.user_score_head
+{
+    background-color: #00CEFF;
+    color: #fff;
+    
+}
+.user_score_table
+{
+    border-collapse: collapse;
+}
+.user_score_foot{
+    background-color: #3366FF;
+    color: #fff;
+}
+.redactor_personal_align
+{
+    text-align: left;
+    color: #D0D0D0;
+    text-decoration: none;
+}
+.align_text
+{
+    text-align: right;
+    color: #4064D8;
+    font-weight: bold;
+}
+.datebusy
+{
+     font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+.input_club
+{
+    border: 0px;
+    
+    
+}
+.club_req
+{
+    background-color: #3366FF;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.club_remove
+{
+    cursor: pointer;
+}
+.checkbox_dayreserv
+{
+    display: none;
+}
+.underline
+{
+   text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+.remove_resource,#account_info_action_switch
+{
+    cursor: pointer;
+}
+/*#account_info_action_switch
+{
+    cursor: pointer;
+}*/
+
+.clubs_img_cont
+{
+    height: 150px;
+    width: 200px;
+    overflow: hidden;
+    //border: 1px solid #fffaaa;
+ 
+}
+.users_img_cont
+{
+    height: 120px;
+    width: 80px;
+    overflow: hidden;
+}
+.massage_window
+{
+    max-height: 400px;
+    width: 630px;
+    overflow: auto;
+    border: 1px solid #fff;
+}
+.admin_color
+{
+    color: #f00;
+    text-decoration: none;
+}
+.user_color
+{
+    color: #788CEF;
+    text-decoration: none;
+}
+#write_massage_switch
+{
+    background-color: #96CDFE;
+    width: 100px;
+    cursor: pointer;
+}
+.signal_one_massage
+{
+    background-color: #D4D4D4;
+}
+#publicclubtable
+{
+    margin: auto;
+}
+.error_text
+{
+     background-color: #EBA4A3;
+     margin-top:  10px;
+     margin-left:  50px;
+}
+.error
+{
+    margin-top:  5px;
+    border: 1px solid #f00;
+    height: 40px;
+    background-color: #EBA4A3;
+    
+}
+.warning
+{
+    color: #f00;
+}
+
+.create_new_club
+{
+    margin-top:  10px;
+    border: 1px solid #3267FC;
+    height: 40px;
+    background-color: #00CEFF;
+    
+}
